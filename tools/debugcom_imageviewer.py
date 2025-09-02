@@ -20,7 +20,7 @@ height = framebuffer_easy_conf(debugcom, videonorm, interlacing_mode, rgb_mode, 
 def resize_and_transfer_picture(filename):
     global height, debugcom
     img = cv2.imread(filename)
-    print("Resizing...")
+    print("Resizing... " + filename)
     img = cv2.resize(img, dsize=(width, height), interpolation=cv2.INTER_AREA)
 
     # Perform a vertical blur for interlaced video to
