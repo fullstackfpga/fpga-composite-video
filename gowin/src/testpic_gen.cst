@@ -37,7 +37,7 @@ IO_LOC "uart_rx" 18;
 IO_PORT "uart_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP;
 
 IO_LOC "switch1" 3;
-IO_PORT "switch1" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_PORT "switch1" PULL_MODE=UP;
 
 IO_LOC "sys_resetn" 4;
 IO_PORT "sys_resetn" PULL_MODE=UP;

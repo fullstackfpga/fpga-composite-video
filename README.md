@@ -68,6 +68,26 @@ Compared to other projects using GOWIN FPGAs, this is based on the official [GOW
 The free educational version should be sufficient here.
 Open `gowin/testpic_gen.gprj` and start the synthesis.
 
+## How to transfer the bitstream without flashing
+
+`openFPGALoader` is required for this
+
+    gowin/upload.sh
+
+## How to flash the bitstream
+
+`openFPGALoader` is required for this
+
+    gowin/flash.sh
+
+## How to view results via USB videograbber
+
+Use one of these scripts
+
+    tools/vlc_pal.sh
+    tools/vlc_ntsc.sh
+    tools/vlc_secam.sh
+
 ## Implementation on hardware
 
 * Proven in use on [Tang Nano 9K](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html) (based on GW1NR-9)
